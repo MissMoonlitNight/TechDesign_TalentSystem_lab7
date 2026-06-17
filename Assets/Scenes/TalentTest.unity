@@ -509,7 +509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   talentPanel: {fileID: 1421378390}
   talentContainer: {fileID: 1421378391}
-  talentNodePrefab: {fileID: 5046071833084208321, guid: e3c3d01f6a579dc4fa0b588b05388432, type: 3}
+  talentNodePrefab: {fileID: 8017063636107747868, guid: db3c7dfd0db553a46881c22333e63c12, type: 3}
   talentManager: {fileID: 1814071593}
 --- !u!4 &1178395411
 Transform:
@@ -577,9 +577,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
+    m_Left: 20
+    m_Right: 10
+    m_Top: 20
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 10
@@ -643,6 +643,7 @@ GameObject:
   - component: {fileID: 1814071587}
   - component: {fileID: 1814071593}
   - component: {fileID: 1814071592}
+  - component: {fileID: 1814071594}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -789,6 +790,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5354eb77f6019c145949b63f438075da, type: 2}
   - {fileID: 11400000, guid: 90a3d0285ea303a49ba8fd0e32006994, type: 2}
   availablePoints: 3
+--- !u!114 &1814071594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814071586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34c438a7e1609a41a7f108c90b4899e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  currentExp: 0
+  expToNextLevel: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
